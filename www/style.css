@@ -1,0 +1,18 @@
+:root{--bg:#090B14;--card:#141830;--pink:#ff5fa2;--vio:#8b5cf6;--cy:#22d3ee;--tx:#f4f4fb;--gr:#9aa0b8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.5 system-ui,sans-serif}
+main{padding:16px 16px 96px;max-width:640px;margin:auto}
+h1{font-size:26px;margin:0}h2{margin:.2em 0}small,.g{color:var(--gr)}
+.card{background:var(--card);border-radius:16px;padding:16px;margin:12px 0}
+.row{display:flex;gap:10px;justify-content:space-between;flex-wrap:wrap}
+.btn{width:100%;min-height:52px;border:0;border-radius:14px;background:linear-gradient(90deg,var(--pink),var(--vio));color:#fff;font-size:17px;margin:6px 0}
+.opt{display:block;width:100%;min-height:52px;text-align:left;background:#1c2142;color:var(--tx);border:2px solid #2a3060;border-radius:12px;padding:10px 14px;margin:8px 0;font-size:17px}
+.ok{border-color:#34d399}.no{border-color:#f87171}
+.bar{height:10px;background:#22284d;border-radius:9px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--cy),var(--pink))}
+.node{display:flex;flex-direction:column;align-items:center;margin:14px 0}
+.node b{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font-size:24px;background:#22284d;border:0;color:#fff}
+.node .cur{background:var(--vio);box-shadow:0 0 18px var(--vio)}.node .dn{background:#059669}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#0d1020;padding-bottom:env(safe-area-inset-bottom)}
+nav button{flex:1;min-height:60px;background:none;border:0;color:var(--gr);font-size:20px}nav span{display:block;font-size:11px}nav .on{color:var(--cy)}
+.msg{padding:10px 14px;border-radius:14px;margin:8px 0;max-width:85%}.me{background:var(--vio);margin-left:auto}.sn{background:var(--card)}
+input{width:100%;min-height:48px;border-radius:12px;border:2px solid #2a3060;background:#1c2142;color:var(--tx);padding:0 12px;font-size:17px}
+.w{display:inline-block;padding:10px 14px;margin:4px;background:#1c2142;border-radius:10px;border:1px solid var(--vio);color:#fff;font-size:18px}
